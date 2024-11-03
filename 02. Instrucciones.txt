@@ -1,0 +1,25 @@
+¡Hola! Se debe desarrollar el siguiente código en Python (con diccionarios):
+
+01. Desarrolle un algoritmo, que pida por teclado al usuario, los siguientes datos:
+
+- Nombre
+- Edad  (if >=18)
+- Cargo (if == "Jefe")
+- Número de empleados
+
+Una vez que el programa solicite el nombre, debe de solicitar también la edad del usuario. Si el
+usuario es menor de edad, el programa no continuará, sino que generará una alerta que diga:
+"¡Error! Eres menor de edad."; de lo contrario, se solicitará al usuario que ingrese su cargo, y se
+le preguntará por el número de empleados que tiene a su cargo, si y sólo si, la respuesta es "Jefe".
+
+Una vez terminado todo este proceso, se imprimirá en pantalla el diccionario de los datos del 
+usuario. Adicional a ello, implementar lo siguiente:
+
+02. Debe de agregar un bucle "while" con uso de un contador, para así, cuando el usuario termine
+de ingresar esos datos de la 'Persona 1', pueda ingresar los datos de n cantidad de personas o
+usuarios e imprimirlo todo en el mismo diccionario vacío establecido previamente.
+
+Para esto, el bucle debe preguntar al usuario "¿Deseas agregar más datos de personas?"; si la
+respuesta es "Sí", deberá agregar nuevos datos, teniendo almacenados los primeros; así sucesiva-
+mente, hasta la 'n cantidad de personas' nuevas que quiera agregar. Si la respuesta es "No", 
+simplemente romper el bucle e imprimir en pantalla "¡Gracias por colaborar con el programa!".
